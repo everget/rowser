@@ -1,0 +1,17 @@
+benchmark/
+bundles/
+coverage/
+data/
+dev-docs/
+scripts/
+test/
+__tests__/
+
+index.html
+.gitignore
+package-lock.json
+Procfile
+rollup.config.js
+*.spec.js
+.travis.yml
+

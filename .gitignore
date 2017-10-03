@@ -1,0 +1,13 @@
+dev-docs/
+coverage/
+lib-cov/
+node_modules/
+pids/
+
+*.pid
+*.seed
+.nodemonignore
+npm-debug.log
+yarn.lock
+
+.DS_Store

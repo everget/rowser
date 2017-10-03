@@ -1,2 +1,2 @@
-# proBrowser
-Smart browser detector based on User Agent string parsing
+# rowser
+An experimental generator-based browser/os/bot detector with proxied API
