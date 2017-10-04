@@ -10,7 +10,7 @@ export default {
   banner: `/**\n * Rowser v${pkg.version}\n * Copyright 2017-present (@everget) Alex Orekhov. MIT License.\n */`,
   input: './index.js',
   output: {
-    file: 'bundles/rowser.umd.js',
+    file: './static/bundles/rowser.umd.js',
     format: 'umd', // 'iife'
     name: 'rowser',
   },
