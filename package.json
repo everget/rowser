@@ -1,7 +1,7 @@
 {
   "name": "rowser",
   "version": "0.1.0",
-  "description": "A smart browser/os/bot detector based on User Agent string parsing",
+  "description": "An experimental generator-based browser/os/bot detector with proxied API",
   "main": "index.js",
   "scripts": {
     "benchmark": "node ./benchmark/index.js",
@@ -9,6 +9,7 @@
     "build:open": "node ./scripts/index-page-open.js",
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha ./__tests__",
     "coverage:open": "node ./scripts/coverage-report-open.js",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
     "lint": "",
     "stats": "cloc . --exclude-dir=node_modules,tmp,.git",
     "test": "./node_modules/.bin/mocha ./__tests__",
@@ -20,10 +21,15 @@
     "url": "git+https://github.com/everget/rowser.git"
   },
   "keywords": [
-    "browser",
+    "detect",
+    "detection",
     "detector",
-    "agent",
-    "parser"
+    "useragent-parser",
+    "browser-detection",
+    "rendering-engine-detection",
+    "os-detection",
+    "bot-detection",
+    "device-detection"
   ],
   "author": "Alex Orekhov <alex.everget161@gmail.com> (https://github.com/everget)",
   "license": "MIT",
@@ -37,6 +43,7 @@
     "bowser": "^1.7.3",
     "chai": "^4.1.2",
     "cloc": "^2.2.0",
+    "coveralls": "^2.13.1",
     "eslint": "^4.7.2",
     "istanbul": "^0.4.5",
     "lodash.random": "^3.2.0",
