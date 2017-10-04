@@ -1,4 +1,4 @@
-# rowser &middot; [![Build Status](https://travis-ci.org/everget/rowser.svg?branch=master)](https://travis-ci.org/everget/rowser) [![npm version](https://img.shields.io/npm/v/rowser.svg?style=flat)](https://www.npmjs.com/package/rowser) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
+# rowser &middot; [![Build Status](https://travis-ci.org/everget/rowser.svg?branch=master)](https://travis-ci.org/everget/rowser) [![npm version](https://img.shields.io/npm/v/rowser.svg?style=flat)](https://www.npmjs.com/package/rowser) [![npm](https://img.shields.io/npm/dm/localeval.svg)]() [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
 
 An experimental generator-based browser/os/bot detector with proxied API
 
