@@ -1,13 +1,16 @@
+__tests__/
 benchmark/
 bundles/
 coverage/
 data/
 dev-docs/
+lib-cov/
 scripts/
+static/
 test/
-__tests__/
 
-index.html
+.appveyor.yml
+.coveralls.yml
 .gitignore
 package-lock.json
 Procfile

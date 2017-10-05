@@ -3,9 +3,9 @@
 const expect = require('chai').expect;
 
 const rowser = require('../../../lib/rowser');
-const userAgents = require('../../../data/browsers/internet-explorer-mobile');
+const userAgents = require('../../../data/browsers/tesla-car-browser');
 
-describe('Internet Explorer Mobile browser', () => {
+describe('Tesla Car Browser', () => {
 
   before(() => {
     rowser.summary = {};

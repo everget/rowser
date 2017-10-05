@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-  - "6.4.0"
-  - "7.5.0"
   - "8.6.0"
+  - "7.5.0"
+  - "6.4.0"
 before_install:
-  - pip install --user codecov
+  - npm install -g npm
+  - npm config set spin false
+  - npm install -g codecov
 install:
   - npm install
-after_success:
-  - codecov --file coverage/lcov.info --disable search
 cache:
   directories:
     - "node_modules"
