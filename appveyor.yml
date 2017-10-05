@@ -6,6 +6,8 @@ branches:
 init:
   - git config --global core.autocrlf input
 
+clone_depth: 50
+
 environment:
   matrix:
     - nodejs_version: 8
@@ -21,6 +23,11 @@ install:
   - yarn install --frozen-lockfile
   - yarn link --frozen-lockfile || yarn link --frozen-lockfile
   - yarn link rowser --frozen-lockfile
+
+build: off
+
+matrix:
+  fast_finish: true
 
 test_script:
   - node --version
