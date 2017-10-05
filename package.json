@@ -4,6 +4,7 @@
   "description": "An experimental generator-based browser/os/bot detector with proxied API",
   "main": "index.js",
   "scripts": {
+    "appveyor:test": "node node_modules\\mocha\\bin\\mocha --max-old-space-size=4096 ./__tests__",
     "benchmark": "node ./benchmark/index.js",
     "build": "rollup -c",
     "build:open": "node ./scripts/index-page-open.js",
