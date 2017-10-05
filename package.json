@@ -1,6 +1,6 @@
 {
   "name": "rowser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An experimental generator-based browser/os/bot detector with proxied API",
   "main": "index.js",
   "scripts": {
