@@ -1,7 +1,7 @@
 branches:
   only:
     - master
-    - dev
+    - next
 
 init:
   - git config --global core.autocrlf input

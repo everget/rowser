@@ -1,14 +1,39 @@
+sudo: false
+dist: trusty
 language: node_js
-node_js:
-  - "8.6.0"
-  - "7.5.0"
-  - "6.4.0"
-before_install:
-  - npm install -g npm
-  - npm config set spin false
-  - npm install -g codecov
-install:
-  - npm install
+
+branches:
+  only:
+    - master
+    - next
+
 cache:
-  directories:
-    - "node_modules"
+  yarn: true
+
+matrix:
+  include:
+    - os: linux
+      node_js: "8"
+      env: NO_WATCH_TESTS=1 JOB_PART=test
+    - os: linux
+      node_js: "7"
+      env: NO_WATCH_TESTS=1 JOB_PART=test
+    - os: linux
+      node_js: "6"
+      env: NO_WATCH_TESTS=1 JOB_PART=test
+    - os: osx
+      node_js: "8"
+      env: NO_WATCH_TESTS=1 JOB_PART=test
+  allow_failures:
+    - os: osx
+  fast_finish: true
+
+install:
+  - bash ./scripts/travis-install.sh
+
+script: npm run travis:$JOB_PART
+
+after_success:
+  - cat ./coverage/lcov.info | node_modules/.bin/coveralls --verbose
+  - cat ./coverage/coverage.json | node_modules/codecov.io/bin/codecov.io.js
+  - rm -rf ./coverage
