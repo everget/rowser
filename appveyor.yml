@@ -8,13 +8,14 @@ init:
 
 clone_depth: 50
 
+# https://github.com/nodejs/Release#nodejs-release-working-group
 environment:
   matrix:
-    - nodejs_version: 8
+    - nodejs_version: 8 # ends December 2019
       job_part: test
-    - nodejs_version: 7
+    - nodejs_version: 7 # no LTS
       job_part: test
-    - nodejs_version: 6
+    - nodejs_version: 6 # ends April 2019
       job_part: test
 
 install:

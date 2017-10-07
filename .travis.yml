@@ -10,16 +10,17 @@ branches:
 cache:
   yarn: true
 
+# https://github.com/nodejs/Release#nodejs-release-working-group
 matrix:
   include:
     - os: linux
-      node_js: "8"
+      node_js: "8" # ends December 2019
       env: NO_WATCH_TESTS=1 JOB_PART=test
     - os: linux
-      node_js: "7"
+      node_js: "7" # no LTS
       env: NO_WATCH_TESTS=1 JOB_PART=test
     - os: linux
-      node_js: "6"
+      node_js: "6" # ends April 2019
       env: NO_WATCH_TESTS=1 JOB_PART=test
     - os: osx
       node_js: "8"
