@@ -1,6 +1,6 @@
 {
   "name": "rowser",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An experimental generator-based browser/os/bot detector with proxied API",
   "main": "lib/rowser.js",
   "module": "lib/rowser.js",
@@ -50,6 +50,9 @@
     "url": "https://github.com/everget/rowser/issues"
   },
   "homepage": "https://github.com/everget/rowser",
+  "engines": {
+    "node": ">=6.11.4"
+  },
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
