@@ -140,16 +140,7 @@ rowser.isSAFARI
 
 ## Possible flags
 
-[Back to top](#table-of-contents)
-
-
-## License
-
-MIT © Alex Orekhov
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Feverget%2Frowser.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Feverget%2Frowser?ref=badge_large)
-
-#### Browsers
+### Browsers
 
 Browser                     | Rowser flag
 --------------------------- | -----------
@@ -190,7 +181,7 @@ Vivaldi                     | ```vivaldi```
 webOS Browser               | ```webosbrowser```
 Yandex Browser              | ```yandexbrowser```
 
-#### Rendering engines
+### Rendering engines
 
 Rendering engine  | Rowser flag
 ----------------- | -----------
@@ -202,7 +193,7 @@ Presto            | ```presto```
 Trident           | ```trident```
 Webkit            | ```webkit```
 
-#### Operatins systems
+### Operating systems
 
 Operating system  | Rowser flag
 ----------------- | -----------
@@ -222,6 +213,14 @@ webOS             | ```webos```
 Windows           | ```windows```
 Windows Phone     | ```windowsphone```
 
-#### Bots
+### Bots
+
+[Back to top](#table-of-contents)
+
+## License
+
+MIT © Alex Orekhov
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Feverget%2Frowser.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Feverget%2Frowser?ref=badge_large)
 
 [Back to top](#table-of-contents)
