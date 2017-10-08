@@ -3,7 +3,9 @@ coverage/
 lib-cov/
 node_modules/
 pids/
+static/*
 
+index.html
 *.pid
 *.seed
 .nodemonignore

@@ -6,15 +6,19 @@ data/
 dev-docs/
 lib-cov/
 scripts/
+src/
 static/
 test/
 
-.appveyor.yml
-.coveralls.yml
+appveyor.yml
+codecov.yml
+.eslintrc.js
 .gitignore
+index.html
 package-lock.json
 Procfile
+ROADMAP.md
 rollup.config.js
 *.spec.js
 .travis.yml
-
+webpack.config.js

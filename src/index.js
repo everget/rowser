@@ -1,9 +1,12 @@
+const rowser = require('../lib/rowser');
+require('./index.css');
+
 function callback() {
-  var performanceEnabled = 'performance' in window;
+  const performanceEnabled = 'performance' in window;
   if (performanceEnabled) {
-    var startTime = window.performance.now();
+    const startTime = window.performance.now();
     window.rowser.detect(window.navigator.userAgent);
-    var endTime = window.performance.now();
+    const endTime = window.performance.now();
     document.getElementsByClassName('js-item-result-detection-time')[0].textContent = `${(endTime - startTime).toFixed(1)}ms`;
   } else {
     window.rowser.detect(window.navigator.userAgent);
