@@ -1,6 +1,8 @@
-# rowser &middot; [![Build Status](https://travis-ci.org/everget/rowser.svg?branch=master)](https://travis-ci.org/everget/rowser) [![Build status](https://ci.appveyor.com/api/projects/status/oar5nqb50oowws9e/branch/master?svg=true)](https://ci.appveyor.com/project/everget/rowser/branch/master) [![codecov](https://codecov.io/gh/everget/rowser/branch/master/graph/badge.svg)](https://codecov.io/gh/everget/rowser) [![Coverage Status](https://coveralls.io/repos/github/everget/rowser/badge.svg)](https://coveralls.io/github/everget/rowser) [![npm version](https://img.shields.io/npm/v/rowser.svg?style=flat)](https://www.npmjs.com/package/rowser) [![npm](https://img.shields.io/npm/dm/rowser.svg?style=flat)](https://www.npmjs.com/package/rowser) [![David](https://img.shields.io/david/dev/everget/rowser.svg)](https://david-dm.org/everget/rowser) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Feverget%2Frowser.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Feverget%2Frowser?ref=badge_shield)
+# rowser
 
 An experimental generator-based browser/os/bot detector with proxied API
+
+[![Build Status](https://travis-ci.org/everget/rowser.svg?branch=master)](https://travis-ci.org/everget/rowser) [![Build status](https://ci.appveyor.com/api/projects/status/oar5nqb50oowws9e/branch/master?svg=true)](https://ci.appveyor.com/project/everget/rowser/branch/master) [![codecov](https://codecov.io/gh/everget/rowser/branch/master/graph/badge.svg)](https://codecov.io/gh/everget/rowser) [![Coverage Status](https://coveralls.io/repos/github/everget/rowser/badge.svg)](https://coveralls.io/github/everget/rowser) [![npm version](https://img.shields.io/npm/v/rowser.svg?style=flat)](https://www.npmjs.com/package/rowser) [![npm](https://img.shields.io/npm/dm/rowser.svg?style=flat)](https://www.npmjs.com/package/rowser) [![David](https://img.shields.io/david/dev/everget/rowser.svg)](https://david-dm.org/everget/rowser) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Feverget%2Frowser.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Feverget%2Frowser?ref=badge_shield)
 
 ## Table of contents
 1. [Installation](#installation)
@@ -20,13 +22,13 @@ yarn add rowser --save
 
 [Back to top](#table-of-contents)
 
-### API
+## API
 
-#### detect(ua: string = window.navigator.userAgent) => Object
+### detect(ua: string = window.navigator.userAgent) => Object
 
 Method `detect` runs detection process
 
-#### summary: Object
+### summary: Object
 
 Property `summary` saves result of the last detection
 
