@@ -3,9 +3,9 @@
 const expect = require('chai').expect;
 
 const rowser = require('../../../lib/rowser');
-const userAgents = require('../../../data/browsers/sailfish');
+const userAgents = require('../../../data/browsers/omniweb');
 
-describe('Sailfish browser', () => {
+describe('OmniWeb browser', () => {
 
   before(() => {
     rowser.summary = {};

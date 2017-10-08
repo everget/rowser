@@ -10,8 +10,7 @@ module.exports = [
       gecko: t,
       linux: t,
       name: 'SlimerJS',
-      os: 'Linux',
-      // TODO
+      osname: 'Linux',
       osversion: '',
       slimerjs: t,
       version: '0.7',

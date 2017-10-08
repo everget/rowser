@@ -12,7 +12,7 @@ module.exports = [
       // mobile: t,
       name: 'Opera',
       opera: t,
-      os: 'iOS',
+      osname: 'iOS',
       osversion: '9.3.4',
       version: '14.0',
       webkit: t,
@@ -26,8 +26,8 @@ module.exports = [
       engineversion: '2.12.388',
       name: 'Opera',
       opera: t,
-      os: 'Windows',
-      osversion: '',
+      osname: 'Windows',
+      osversion: 'Vista || Server 2008',
       presto: t,
       version: '12.14',
       windows: t,
@@ -42,8 +42,8 @@ module.exports = [
       gecko: t,
       name: 'Opera',
       opera: t,
-      os: 'Windows',
-      osversion: '',
+      osname: 'Windows',
+      osversion: 'Vista || Server 2008',
       version: '12.14',
       windows: t,
     }
@@ -56,8 +56,8 @@ module.exports = [
       engineversion: '',
       name: 'Opera',
       opera: t,
-      os: 'Windows',
-      osversion: '',
+      osname: 'Windows',
+      osversion: 'Vista || Server 2008',
       presto: t,
       version: '12.14',
       windows: t,
@@ -72,7 +72,7 @@ module.exports = [
       engineversion: '2.11.355',
       name: 'Opera',
       opera: t,
-      os: 'Android',
+      osname: 'Android',
       osversion: '4.4.2',
       presto: t,
       // tablet: t,
@@ -80,59 +80,3 @@ module.exports = [
     }
   }
 ];
-
-
-// 'Opera/12.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.02'
-//   opera: t
-//   version: '12.02'
-//   windows: t
-//   a: t,
-
-
-// 'Opera/9.80 (X11; Linux i686; U; es-ES) Presto/2.8.131 Version/11.11'
-//   opera: t
-//   version: '11.11'
-//   linux: t
-//   a: t,
-
-
-// 'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.7; U; en) Presto/2.7.62 Version/11.01'
-//   opera: t
-//   version: '11.01'
-//   mac: t
-//   a: t,
-
-
-// 'Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.6.30 Version/10.63'
-//   opera: t
-//   version: '10.63'
-//   windows: t
-//   a: t,
-
-
-// 'Opera/9.80 (X11; Linux i686; U; it) Presto/2.5.24 Version/10.54'
-//   opera: t
-//   version: '10.54'
-//   linux: t
-//   a: t,
-
-
-// 'Opera/9.70 (Linux ppc64 ; U; en) Presto/2.2.1'
-//   opera: t
-//   version: '9.70'
-//   linux: t
-//   c: t
-
-
-// 'Opera/9.63 (X11; Linux i686)'
-//   opera: t
-//   version: '9.63'
-//   linux: t
-//   c: t
-
-
-// 'Mozilla/5.0 (X11; Linux i686; U; en) Opera 8.52'
-//   opera: t
-//   version: '8.52'
-//   linux: t
-//   c: t

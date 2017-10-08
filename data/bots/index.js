@@ -239,8 +239,8 @@ module.exports = [
     descriptor: {
       bot: t,
       name: 'WhatsApp Bot',
-      os: 'Windows',
-      osversion: '',
+      osname: 'Windows',
+      osversion: '7 || Server 2008 R2',
       version: '2.12.81',
       whatsappbot: t,
       windows: t,

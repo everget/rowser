@@ -9,8 +9,8 @@ module.exports = [
       name: 'Opera Neon',
       opera: t,
       operaneon: t,
-      os: 'Windows',
-      osversion: '',
+      osname: 'Windows',
+      osversion: '7 || Server 2008 R2',
       version: '1.0',
       windows: t,
     }
@@ -23,8 +23,8 @@ module.exports = [
       name: 'Opera Neon',
       opera: t,
       operaneon: t,
-      os: 'Windows',
-      osversion: '',
+      osname: 'Windows',
+      osversion: '7 || Server 2008 R2',
       version: '1.0',
       windows: t,
     }
