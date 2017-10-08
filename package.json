@@ -50,9 +50,6 @@
     "url": "https://github.com/everget/rowser/issues"
   },
   "homepage": "https://github.com/everget/rowser",
-  "engines": {
-    "node": ">=6.11.4"
-  },
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
