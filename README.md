@@ -2,13 +2,14 @@
 
 An experimental generator-based browser/os/bot detector with proxied API
 
-### Table of contents
+## Table of contents
 1. [Installation](#installation)
 1. [API](#api)
 1. [Usage](#usage)
 1. [Possible flags](#possible-flags)
+1. [License](#license)
 
-### Installation
+## Installation
 ```
 npm install rowser --save
 ```
@@ -31,7 +32,7 @@ Property `summary` saves result of the last detection
 
 [Back to top](#table-of-contents)
 
-### Usage
+## Usage
 
 By default, rowser gets `window.navigator.userAgent` as its `ua` parameter. So in browser environment you can simply do:
 
@@ -135,7 +136,16 @@ rowser.isSAFARI
 
 [Back to top](#table-of-contents)
 
-### Possible flags
+## Possible flags
+
+[Back to top](#table-of-contents)
+
+
+## License
+
+MIT © Alex Orekhov
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Feverget%2Frowser.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Feverget%2Frowser?ref=badge_large)
 
 #### Browsers
 
