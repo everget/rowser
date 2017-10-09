@@ -16,7 +16,6 @@ codecov.yml
 .gitignore
 index.html
 package-lock.json
-Procfile
 ROADMAP.md
 rollup.config.js
 *.spec.js
