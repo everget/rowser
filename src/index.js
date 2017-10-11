@@ -4,15 +4,15 @@ require('./index.css');
 function callback() {
   const performanceEnabled = 'performance' in window;
   if (performanceEnabled) {
-    const startTime = window.performance.now();
-    window.rowser.detect(window.navigator.userAgent);
-    const endTime = window.performance.now();
+    const startTime = performance.now();
+    rowser.detect(navigator.userAgent);
+    const endTime = performance.now();
     document.getElementsByClassName('js-item-result-detection-time')[0].textContent = `${(endTime - startTime).toFixed(1)}ms`;
   } else {
-    window.rowser.detect(window.navigator.userAgent);
+    rowser.detect(navigator.userAgent);
   }
 
-  document.getElementsByClassName('js-item-result-user-agent')[0].textContent = window.navigator.userAgent;
+  document.getElementsByClassName('js-item-result-user-agent')[0].textContent = navigator.userAgent;
   document.getElementsByClassName('js-item-result-browser')[0].textContent = rowser.summary.name || 'unknown';
   document.getElementsByClassName('js-item-result-browser-version')[0].textContent = rowser.summary.version || 'unknown';
   document.getElementsByClassName('js-item-result-engine')[0].textContent = rowser.summary.engine || 'unknown';

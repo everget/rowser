@@ -48,10 +48,11 @@ module.exports = env => {
             path.join(__dirname, 'src/index.js'),
             path.join(__dirname, 'lib')
           ],
-          loader: 'babel-loader?cacheDirectory=true',
+          loader: 'babel-loader',
           options: {
             babelrc: false,
-            presets: [['es2015', { 'modules': false }]],
+            cacheDirectory: true,
+            presets: ['es2015'], // ['es2015', { 'modules': false }]
             plugins: ['transform-runtime'],
           }
         },
