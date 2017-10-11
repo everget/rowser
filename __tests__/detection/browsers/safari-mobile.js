@@ -11,7 +11,7 @@ describe('Safari Mobile browser', () => {
     rowser.summary = {};
   });
 
-  it('should be detected', () => {
+  it('all test user agents should be detected correctly', () => {
     userAgents.forEach(item => {
       expect(rowser.detect(item.ua)).to.deep.equal(item.descriptor);
       rowser.summary = {};
