@@ -1,7 +1,6 @@
 require('../lib/rowser.spec');
 
-require('../lib/utils/getFirstMatch/index.spec');
-require('../lib/utils/getSecondMatch/index.spec');
+require('../lib/utils/getMatchByIndex/index.spec');
 require('../lib/utils/getVersionPrecision/index.spec');
 require('../lib/utils/run/index.spec');
 
