@@ -142,8 +142,8 @@ rowser.isSAFARI
 
 ### Browsers
 
-Browser                     | Rowser flag
---------------------------- | -----------
+Browser                     | Summary flag
+--------------------------- | ------------
 Android Browser             | ```androidbrowser```
 BlackBerry Browser          | ```blackberrybrowser```, ```bbbrowser```
 Chromium                    | ```chromium```
@@ -183,8 +183,8 @@ Yandex Browser              | ```yandexbrowser```
 
 ### Rendering engines
 
-Rendering engine  | Rowser flag
------------------ | -----------
+Rendering engine  | Summary flag
+----------------- | ------------
 Blink             | ```blink```
 EdgeHTML          | ```edgehtml```
 Gecko             | ```gecko```
@@ -195,8 +195,8 @@ Webkit            | ```webkit```
 
 ### Operating systems
 
-Operating system  | Rowser flag
------------------ | -----------
+Operating system  | Summary flag
+----------------- | ------------
 Android           | ```android```
 (SOON) Android TV | ```androidtv```
 (SOON) Bada       | ```bada```
@@ -214,6 +214,19 @@ Windows           | ```windows```
 Windows Phone     | ```windowsphone```
 
 ### Bots
+
+Bots/Crawlers/Spiders  | Summary flag
+---------------------- | ------------
+Alexa Crawlers         | ```alexacrawler```
+Baidu Spiders          | ```baiduspider```
+Bing Crawlers          | ```bingbot```
+DuckDuckBot            | ```duckduckbot```
+Exabot                 | ```exabot```
+Google Crawlers        | ```googlebot```
+Majestic-12 Crawler    | ```mj12bot```
+Sogou Spiders          | ```sogouspider```
+Yahoo! Slurp           | ```yahooslurp```
+Yandex Crawlers        | ```yandexbot```
 
 [Back to top](#table-of-contents)
 
