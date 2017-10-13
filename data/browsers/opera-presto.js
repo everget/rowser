@@ -2,23 +2,6 @@ const t = true;
 
 module.exports = [
   {
-    ua: 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13G35 Safari/9537.53',
-    descriptor: {
-      // a: t,
-      engine: 'Webkit',
-      device: 'iPod',
-      ios: t,
-      // ipod: t,
-      // mobile: t,
-      name: 'Opera',
-      opera: t,
-      osname: 'iOS',
-      osversion: '9.3.4',
-      version: '14.0',
-      webkit: t,
-    }
-  },
-  {
     ua: 'Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14',
     descriptor: {
       // a: t,

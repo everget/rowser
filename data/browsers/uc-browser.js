@@ -7,6 +7,7 @@ module.exports = [
       // a: t,
       device: 'iPhone',
       engine: 'Webkit',
+      engineversion: '537.51',
       // iphone: t,
       ios: t,
       // mobile: t,
@@ -37,6 +38,7 @@ module.exports = [
       // a: t,
       device: 'iPad',
       engine: 'Webkit',
+      engineversion: '534.46',
       // ipad: t,
       ios: t,
       name: 'UC Browser',
@@ -53,6 +55,7 @@ module.exports = [
     descriptor: {
       android: t,
       engine: 'Webkit',
+      engineversion: '534.30',
       name: 'UC Browser',
       osname: 'Android',
       osversion: '4.1.2',

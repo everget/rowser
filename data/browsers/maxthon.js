@@ -7,6 +7,7 @@ module.exports = [
       // a: t,
       device: 'iPhone',
       engine: 'Webkit',
+      engineversion: '601.1',
       ios: t,
       // iphone: t,
       maxthon: t,
@@ -22,6 +23,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Maxthon/4.0.0.2000 Chrome/22.0.1229.79 Safari/537.1',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '537.1',
       maxthon: t,
       name: 'Maxthon',
       osname: 'Windows',
@@ -35,6 +37,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.3 (KHTML, like Gecko) Maxthon/3.3.3.600 Chrome/16.0.883.0 Safari/535.3',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '535.3',
       maxthon: t,
       name: 'Maxthon',
       osname: 'Windows',
@@ -48,6 +51,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '533.1',
       maxthon: t,
       name: 'Maxthon',
       osname: 'Windows',
@@ -61,6 +65,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Maxthon/3.0.6.27 Safari/532.4',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '532.4',
       maxthon: t,
       name: 'Maxthon',
       osname: 'Windows',
@@ -88,6 +93,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.6 (KHTML, like Gecko) Maxthon/3.0 Safari/530.6',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '530.6',
       maxthon: t,
       name: 'Maxthon',
       osname: 'Windows',
@@ -101,6 +107,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/535.12 (KHTML, like Gecko) Maxthon/3.0 Chrome/18.0.966.0 Safari/535.12',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '535.12',
       maxthon: t,
       name: 'Maxthon',
       osname: 'Windows',

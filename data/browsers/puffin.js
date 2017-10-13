@@ -123,6 +123,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IT',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '534.35',
       linux: t,
       name: 'Puffin',
       osname: 'Linux',
@@ -150,6 +151,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.9541AP',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '534.35',
       linux: t,
       name: 'Puffin',
       osname: 'Linux',
@@ -163,6 +165,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.7961',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '534.35',
       linux: t,
       name: 'Puffin',
       osname: 'Linux',

@@ -5,6 +5,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/604.1 (KHTML, like Gecko) Version/11.0 Safari/604.1 Epiphany/3.24.3',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '604.1',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -18,6 +19,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/603.1 (KHTML, like Gecko) Version/10.0 Safari/603.1 Epiphany/3.22.6',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '603.1',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -31,6 +33,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) Version/8.0 Safari/602.1 Epiphany/3.20.1',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '602.1',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -44,6 +47,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) Version/8.0 Safari/602.1 Epiphany/3.20.3',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '602.1',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -57,6 +61,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) Version/8.0 Safari/602.1 Debian/buildd-unstable (3.18.5-1) Epiphany/3.18.5',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '602.1',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -71,6 +76,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) Version/8.0 Safari/602.1 Epiphany/3.18.5',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '602.1',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -84,6 +90,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Epiphany/3.12.0',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '538.15',
       epiphany: t,
       macos: t,
       name: 'Epiphany',
@@ -97,6 +104,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Raspbian/8.0 (1:3.8.2.0-0rpi27rpi1g) Epiphany/3.8.2',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '538.15',
       epiphany: t,
       macos: t,
       name: 'Epiphany',
@@ -110,6 +118,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+ Debian/unstable (3.4.2-1) Epiphany/3.4.2',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '535.22',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -123,6 +132,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+ Epiphany/3.4.2',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '535.22',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -136,6 +146,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; it-it) AppleWebKit/534.26+ (KHTML, like Gecko) Ubuntu/11.04 Epiphany/2.30.6',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '534.26',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -149,6 +160,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Epiphany/2.30.6 Safari/534.7',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '534.7',
       epiphany: t,
       linux: t,
       name: 'Epiphany',
@@ -162,6 +174,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; U; OpenBSD arm; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.30.0',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '531.2',
       epiphany: t,
       name: 'Epiphany',
       version: '2.30.0',
@@ -172,6 +185,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (X11; U; FreeBSD amd64; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.30.0',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '531.2',
       epiphany: t,
       name: 'Epiphany',
       version: '2.30.0',

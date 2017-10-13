@@ -45,6 +45,7 @@ module.exports = [
     descriptor: {
       android: t,
       engine: 'Webkit',
+      engineversion: '535.19',
       name: 'Amazon Silk',
       osname: 'Android',
       osversion: '4.0.3',
@@ -60,6 +61,7 @@ module.exports = [
     descriptor: {
       android: t,
       engine: 'Webkit',
+      engineversion: '533.1',
       name: 'Amazon Silk',
       osname: 'Android',
       osversion: '2.3.4',

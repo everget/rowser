@@ -21,6 +21,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '538.1',
       name: 'Samsung Internet',
       osname: 'Tizen',
       osversion: '2.3',

@@ -99,6 +99,7 @@ module.exports = [
     ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
     descriptor: {
       engine: 'Webkit',
+      engineversion: '536.5',
       macos: t,
       name: 'Yandex Browser',
       osname: 'macOS',

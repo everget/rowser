@@ -6,6 +6,7 @@ module.exports = [
     descriptor: {
       device: 'iPhone',
       engine: 'Webkit',
+      engineversion: '603.2',
       ios: t,
       msedge: t,
       name: 'Microsoft Edge',

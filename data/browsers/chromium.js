@@ -48,6 +48,7 @@ module.exports = [
     descriptor: {
       chromium: t,
       engine: 'Webkit',
+      engineversion: '535.7',
       linux: t,
       name: 'Chromium',
       osname: 'Linux',
@@ -61,6 +62,7 @@ module.exports = [
     descriptor: {
       chromium: t,
       engine: 'Webkit',
+      engineversion: '535.2',
       linux: t,
       name: 'Chromium',
       osname: 'Linux',
@@ -74,6 +76,7 @@ module.exports = [
     descriptor: {
       chromium: t,
       engine: 'Webkit',
+      engineversion: '535.1',
       linux: t,
       name: 'Chromium',
       osname: 'Linux',
@@ -87,6 +90,7 @@ module.exports = [
     descriptor: {
       chromium: t,
       engine: 'Webkit',
+      engineversion: '534.30',
       linux: t,
       name: 'Chromium',
       osname: 'Linux',
@@ -100,6 +104,7 @@ module.exports = [
     descriptor: {
       chromium: t,
       engine: 'Webkit',
+      engineversion: '534.10',
       linux: t,
       name: 'Chromium',
       osname: 'Linux',
@@ -113,6 +118,7 @@ module.exports = [
     descriptor: {
       chromium: t,
       engine: 'Webkit',
+      engineversion: '534.10',
       linux: t,
       name: 'Chromium',
       osname: 'Linux',

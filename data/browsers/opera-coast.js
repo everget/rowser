@@ -7,6 +7,7 @@ module.exports = [
       // a: t,
       device: 'iPhone',
       engine: 'Webkit',
+      engineversion: '601.1',
       // iphone: t,
       ios: t,
       // mobile: t,
@@ -24,6 +25,7 @@ module.exports = [
     descriptor: {
       device: 'iPhone',
       engine: 'Webkit',
+      engineversion: '537.51',
       ios: t,
       name: 'Opera Coast',
       opera: t,
@@ -39,6 +41,7 @@ module.exports = [
     descriptor: {
       device: 'iPhone',
       engine: 'Webkit',
+      engineversion: '537.51',
       ios: t,
       name: 'Opera Coast',
       opera: t,
@@ -54,6 +57,7 @@ module.exports = [
     descriptor: {
       device: 'iPad',
       engine: 'Webkit',
+      engineversion: '537.51',
       ios: t,
       name: 'Opera Coast',
       opera: t,
@@ -69,6 +73,7 @@ module.exports = [
     descriptor: {
       device: 'iPad',
       engine: 'Webkit',
+      engineversion: '537.51',
       ios: t,
       name: 'Opera Coast',
       opera: t,
@@ -84,6 +89,7 @@ module.exports = [
     descriptor: {
       device: 'iPad',
       engine: 'Webkit',
+      engineversion: '537.51',
       ios: t,
       name: 'Opera Coast',
       opera: t,
@@ -99,6 +105,7 @@ module.exports = [
     descriptor: {
       device: 'iPad',
       engine: 'Webkit',
+      engineversion: '536.26',
       ios: t,
       name: 'Opera Coast',
       opera: t,

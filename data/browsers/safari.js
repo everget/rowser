@@ -7,6 +7,7 @@ module.exports = [
     descriptor: {
       // c: t,
       engine: 'Webkit',
+      engineversion: '537.13',
       macos: t,
       name: 'Safari',
       osname: 'macOS',
@@ -21,6 +22,7 @@ module.exports = [
     descriptor: {
       // c: t,
       engine: 'Webkit',
+      engineversion: '533.21',
       macos: t,
       name: 'Safari',
       osname: 'macOS',
@@ -35,6 +37,7 @@ module.exports = [
     descriptor: {
       // c: t,
       engine: 'Webkit',
+      engineversion: '533.18',
       name: 'Safari',
       osname: 'Windows',
       osversion: 'XP',
@@ -49,6 +52,7 @@ module.exports = [
     descriptor: {
       // c: t,
       engine: 'Webkit',
+      engineversion: '531.2',
       linux: t,
       name: 'Safari',
       osname: 'Linux',
@@ -63,6 +67,7 @@ module.exports = [
     descriptor: {
       // c: t,
       engine: 'Webkit',
+      engineversion: '533.16',
       name: 'Safari',
       osname: 'Windows',
       osversion: '2000',
@@ -77,6 +82,7 @@ module.exports = [
     descriptor: {
       // c: t,
       engine: 'Webkit',
+      engineversion: '531.21',
       macos: t,
       name: 'Safari',
       osname: 'macOS',
@@ -91,6 +97,7 @@ module.exports = [
     descriptor: {
       // c: t,
       engine: 'Webkit',
+      engineversion: '525.28',
       macos: t,
       name: 'Safari',
       osname: 'macOS',
