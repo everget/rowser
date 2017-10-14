@@ -12,7 +12,7 @@ describe('Yandex Crawlers', () => {
     rowser.summary = {};
   });
 
-  it('all test user agents all test user agents should be detected correctly correctly', () => {
+  it('all test user agents should be detected correctly', () => {
     userAgents.forEach(item => {
       expect(rowser.detect(item.ua)).to.deep.equal(item.descriptor);
       rowser.summary = {};
