@@ -5,7 +5,7 @@ node_modules/
 pids/
 static/*
 
-index.html
+/index.html
 *.pid
 *.seed
 .nodemonignore
