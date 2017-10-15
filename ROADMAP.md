@@ -3,18 +3,18 @@
 ### 0.x.x
 - [x] ~~Rename `os` to `osname`~~
 - [x] ~~Add Windows version extractor~~
-- [ ] Add more browsers' recognizers
-- [ ] Extend tests data
+- [x] ~~Add more browsers' recognizers~~
+- [x] ~~Extend tests data~~
 - [ ] Add ```fullversion``` and ```osfullversion``` props
-- [ ] Add browser grade detection
+- [x] ~~Add browser grade detection~~
 - [ ] Add ability to check if browser is unsupported
-- [ ] Add function to compare versions
-- [ ] Add device type detection
+- [ ] Add method to compare versions
+- [x] ~~Add device type detection~~
 - [ ] Add more bot recognizers
 - [ ] RegExp optimization
-- [ ] Detection speed optimization
+- [ ] Optimize detection speed (Add `strict` mode)
 - [ ] Deploy test page on Heroku
 
 ### 1.x.x
-- [ ] Try to add async iteration with shared summary
-- [ ] Try to add ability for custom detection scenarios
+- [ ] Add async iteration with shared summary
+- [ ] Add ability for custom detection scenarios

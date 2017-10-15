@@ -57,7 +57,8 @@ rowser.detect(someMobilaUA);
 // =>
 //  {
 //    device: "iPhone",
-//    engine: "Webkit",
+//    engine: "WebKit",
+//    engineversion: "537.51",
 //    ios: true,
 //    name: "Safari",
 //    osname: "iOS",
@@ -82,7 +83,8 @@ rowser.summary
 // =>
 //  {
 //    device: "iPhone",
-//    engine: "Webkit",
+//    engine: "WebKit",
+//    engineversion: "537.51",
 //    ios: true,
 //    name: "Safari",
 //    osname: "iOS",
@@ -148,9 +150,12 @@ Android Browser             | ```androidbrowser```
 BlackBerry Browser          | ```blackberrybrowser```, ```bbbrowser```
 Chromium                    | ```chromium```
 Google Chrome               | ```chrome```
+Google Search App           | ```gsa```, ```googlesearchapp```
+Dolphin Browser             | ```dolphin```
 Dorothy Browser             | ```dorothy```
 Epiphany                    | ```epiphany```
 Mozilla Firefox             | ```firefox```
+Mozilla Firefox Focus       | ```firefox```, ```firefoxfocus```
 Microsoft Internet Explorer | ```msie```
 K-Meleon                    | ```kmeleon```
 Maxthon                     | ```maxthon```
@@ -191,7 +196,7 @@ Gecko             | ```gecko```
 Goanna            | ```goanna```
 Presto            | ```presto```
 Trident           | ```trident```
-Webkit            | ```webkit```
+WebKit            | ```webkit```
 
 ### Operating systems
 
@@ -222,9 +227,17 @@ Baidu Spiders          | ```baiduspider```
 Bing Crawlers          | ```bingbot```
 DuckDuckBot            | ```duckduckbot```
 Exabot                 | ```exabot```
+Facebook Bot           | ```facebookbot```
 Google Crawlers        | ```googlebot```
+LinkedIn Bot           | ```linkedinbot```
 Majestic-12 Crawler    | ```mj12bot```
+Pinterest Bot          | ```pinterestbot```
+SlackBot               | ```slackbot```
 Sogou Spiders          | ```sogouspider```
+StackRambler           | ```stackrambler```
+TelegramBot            | ```telegrambot```
+Twitter Bot            | ```twitterbot```
+WhatsApp Bot           | ```whatsappbot```
 Yahoo! Slurp           | ```yahooslurp```
 Yandex Crawlers        | ```yandexbot```
 
