@@ -74,6 +74,14 @@ module.exports = [
     }
   },
   {
+    ua: 'TelegramBot (like TwitterBot)',
+    descriptor: {
+      bot: t,
+      name: 'TelegramBot',
+      telegrambot: t,
+    }
+  },
+  {
     ua: 'Twitterbot/1.0',
     descriptor: {
       bot: t,
@@ -135,5 +143,53 @@ module.exports = [
       version: '2.11.106',
       whatsappbot: t,
     }
-  }
+  },
+  {
+    ua: 'Mozilla/5.0 (compatible; ScoutJet; +http://www.scoutjet.com/)',
+    descriptor: {
+      bot: t,
+    }
+  },
+  {
+    ua: 'SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20121030175911',
+    descriptor: {
+      bot: t,
+    }
+  },
+  {
+    ua: 'DataparkSearch/4.37-23012006 ( http://www.dataparksearch.org/)',
+    descriptor: {
+      bot: t,
+    }
+  },
+  {
+    ua: 'Covario-IDS/1.0 (Covario; http://www.covario.com/ids; support at covario dot com)',
+    descriptor: {
+      bot: t,
+    }
+  },
+  {
+    ua: 'findlinks/2.0.1 (+http://wortschatz.uni-leipzig.de/findlinks/)',
+    descriptor: {
+      bot: t,
+    }
+  },
+  {
+    ua: 'findlinks/1.1-a3 (+http://wortschatz.uni-leipzig.de/findlinks/)',
+    descriptor: {
+      bot: t,
+    }
+  },
+  {
+    ua: 'SiteLockSpider [en] (WinNT; I ;Nav)',
+    descriptor: {
+      bot: t,
+    }
+  },
+  {
+    ua: 'YottaaMonitor',
+    descriptor: {
+      bot: t,
+    }
+  },
 ];
