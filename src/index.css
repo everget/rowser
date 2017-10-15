@@ -21,37 +21,15 @@ body {
   cursor: default;
 }
 
-.clearfix:before,
-.clearfix:after {
-  content: ' ';
-  display: table;
+.rowser-content-wrapper {
+  text-align: center;
 }
-
-.clearfix:after {
-  clear: both;
-}
-
-.text-overflow {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.rowser-content-wrapper {}
 
 .rowser-report {
   display: inline-block;
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: 10% auto 0;
   border-top: transparent;
   border-radius: 2px;
   width: 550px;
-  height: 450px;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18),
               0 4px 15px 0 rgba(0, 0, 0, .15);
   background-color: #fff;
@@ -111,7 +89,6 @@ body {
 .rowser-list-item__name {}
 
 .rowser-list-item__result {
-
-
-
+  color: #383535;
+  font-weight: bold;
 }
