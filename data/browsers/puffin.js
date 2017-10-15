@@ -33,6 +33,7 @@ module.exports = [
       android: t,
       blink: t,
       engine: 'Blink',
+      mobile: t,
       name: 'Puffin',
       osname: 'Android',
       osversion: '4.4.2',
@@ -82,6 +83,7 @@ module.exports = [
   {
     ua: 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Version/7.1.2 Mobile/11D257 Safari/537.36 Puffin/4.5.0IT',
     descriptor: {
+      a: t,
       blink: t,
       engine: 'Blink',
       device: 'iPad',
@@ -90,6 +92,7 @@ module.exports = [
       osname: 'iOS',
       osversion: '7.1.2',
       puffin: t,
+      tablet: t,
       version: '4.5',
     }
   },
@@ -122,7 +125,7 @@ module.exports = [
   {
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IT',
     descriptor: {
-      engine: 'Webkit',
+      engine: 'WebKit',
       engineversion: '534.35',
       linux: t,
       name: 'Puffin',
@@ -150,7 +153,7 @@ module.exports = [
   {
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.9541AP',
     descriptor: {
-      engine: 'Webkit',
+      engine: 'WebKit',
       engineversion: '534.35',
       linux: t,
       name: 'Puffin',
@@ -164,7 +167,7 @@ module.exports = [
   {
     ua: 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.7961',
     descriptor: {
-      engine: 'Webkit',
+      engine: 'WebKit',
       engineversion: '534.35',
       linux: t,
       name: 'Puffin',

@@ -4,10 +4,12 @@ module.exports = [
   {
     ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Safari/603.1.30 Sleipnir/4.3.4m',
     descriptor: {
+      a: t,
       device: 'iPhone',
-      engine: 'Webkit',
+      engine: 'WebKit',
       engineversion: '603.1',
       ios: t,
+      mobile: t,
       name: 'Sleipnir',
       osname: 'iOS',
       osversion: '10.3.1',
@@ -22,6 +24,7 @@ module.exports = [
       android: t,
       blink: t,
       engine: 'Blink',
+      mobile: t,
       name: 'Sleipnir',
       osname: 'Android',
       osversion: '6.0.1',

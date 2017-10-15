@@ -65,6 +65,33 @@ module.exports = [
     }
   },
   {
+    ua: 'LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)',
+    descriptor: {
+      bot: t,
+      linkedinbot: t,
+      name: 'LinkedInBot',
+      version: '1.0',
+    }
+  },
+  {
+    ua: 'Twitterbot/1.0',
+    descriptor: {
+      bot: t,
+      name: 'TwitterBot',
+      twitterbot: t,
+      version: '1.0',
+    }
+  },
+  {
+    ua: 'Slackbot 1.0(+https://api.slack.com/robots)',
+    descriptor: {
+      bot: t,
+      name: 'SlackBot',
+      slackbot: t,
+      version: '1.0',
+    }
+  },
+  {
     ua: 'Mozilla/5.0 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)',
     descriptor: {
       bot: t,

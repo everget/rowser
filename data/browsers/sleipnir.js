@@ -54,6 +54,76 @@ module.exports = [
       version: '2.9.7',
       windows: t,
     }
+  },
+  {
+    ua: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
+    descriptor: {
+      trident: t,
+      engine: 'Trident',
+      engineversion: '',
+      name: 'Sleipnir',
+      osname: 'Windows',
+      osversion: 'XP',
+      sleipnir: t,
+      version: '2.9.2',
+      windows: t,
+    }
+  },
+  {
+    ua: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Sleipnir/2.8.1',
+    descriptor: {
+      trident: t,
+      engine: 'Trident',
+      engineversion: '',
+      name: 'Sleipnir',
+      osname: 'Windows',
+      osversion: 'XP',
+      sleipnir: t,
+      version: '2.8.1',
+      windows: t,
+    }
+  },
+  {
+    ua: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322) Sleipnir/2.7.0',
+    descriptor: {
+      trident: t,
+      engine: 'Trident',
+      engineversion: '',
+      name: 'Sleipnir',
+      osname: 'Windows',
+      osversion: 'XP',
+      sleipnir: t,
+      version: '2.7.0',
+      windows: t,
+    }
+  },
+  {
+    ua: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Sleipnir/2.49',
+    descriptor: {
+      trident: t,
+      engine: 'Trident',
+      engineversion: '',
+      name: 'Sleipnir',
+      osname: 'Windows',
+      osversion: '2000',
+      sleipnir: t,
+      version: '2.49',
+      windows: t,
+    }
+  },
+  {
+    ua: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1) Sleipnir/2.21',
+    descriptor: {
+      trident: t,
+      engine: 'Trident',
+      engineversion: '',
+      name: 'Sleipnir',
+      osname: 'Windows',
+      osversion: 'XP',
+      sleipnir: t,
+      version: '2.21',
+      windows: t,
+    }
   }
 ];
 
