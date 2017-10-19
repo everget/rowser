@@ -376,7 +376,6 @@ module.exports = [
       osname: 'macOS',
       osversion: '10.6',
       version: '4.0',
-      macos: t,
     }
   },
   {
