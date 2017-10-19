@@ -1,3 +1,6 @@
+const fs = require('fs');
+const path = require('path');
+
 const Benchmark = require('benchmark');
 const bowser = require('bowser');
 const platform = require('platform');
@@ -12,6 +15,8 @@ const firefoxDetectionTimeSuite = new Benchmark.Suite;
 const ieDetectionTimeSuite = new Benchmark.Suite;
 const operaDetectionTimeSuite = new Benchmark.Suite;
 const safariDetectionTimeSuite = new Benchmark.Suite;
+
+const writeStream = fs.createWriteStream(path.join(__dirname, './benchmark-results.txt'));
 
 const shouldRunAsync = false;
 
@@ -38,10 +43,14 @@ androidDetectionTimeSuite
     rowser.detect(androidUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nAndroid Browser: fastest is ${androidDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nAndroid Browser: fastest is ${androidDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
   })
   .run({ 'async': shouldRunAsync });
 
@@ -59,10 +68,14 @@ blackberryDetectionTimeSuite
     rowser.detect(blackberryUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nBlackBerry Browser: fastest is ${blackberryDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nBlackBerry Browser: fastest is ${blackberryDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
   })
   .run({ 'async': shouldRunAsync });
 
@@ -80,10 +93,14 @@ chromeDetectionTimeSuite
     rowser.detect(chromeUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nGoogle Chrome: fastest is ${chromeDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nGoogle Chrome: fastest is ${chromeDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
   })
   .run({ 'async': shouldRunAsync });
 
@@ -101,10 +118,14 @@ edgeDetectionTimeSuite
     rowser.detect(edgeUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nMicrosoft Edge: fastest is ${edgeDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nMicrosoft Edge: fastest is ${edgeDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
   })
   .run({ 'async': shouldRunAsync });
 
@@ -122,10 +143,14 @@ firefoxDetectionTimeSuite
     rowser.detect(firefoxUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nMozilla Firefox: fastest is ${firefoxDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nMozilla Firefox: fastest is ${firefoxDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
   })
   .run({ 'async': shouldRunAsync });
 
@@ -143,10 +168,14 @@ ieDetectionTimeSuite
     rowser.detect(ieUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nMicrosoft Internet Explorer: fastest is ${ieDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nMicrosoft Internet Explorer: fastest is ${ieDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
   })
   .run({ 'async': shouldRunAsync });
 
@@ -164,10 +193,14 @@ operaDetectionTimeSuite
     rowser.detect(operaUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nOpera: fastest is ${operaDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nOpera: fastest is ${operaDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
   })
   .run({ 'async': shouldRunAsync });
 
@@ -185,9 +218,15 @@ safariDetectionTimeSuite
     rowser.detect(safariUA);
   })
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    const cycleResult = String(event.target);
+    writeStream.write(`${cycleResult}\n`);
+    console.log(cycleResult);
   })
   .on('complete', () => {
-    console.log(`\nApple Safari: fastest is ${safariDetectionTimeSuite.filter('fastest').map('name')}\n`);
+    const completeResult = `\nApple Safari: fastest is ${safariDetectionTimeSuite.filter('fastest').map('name')}\n`;
+    console.log(completeResult);
+    writeStream.write(completeResult);
+
+    writeStream.end();
   })
   .run({ 'async': shouldRunAsync });
