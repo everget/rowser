@@ -10,9 +10,9 @@
 - [ ] Add ability to check if browser is unsupported
 - [ ] Add method to compare versions
 - [x] ~~Add device type detection~~
-- [ ] Add more bot recognizers
+- [x] ~~Add more bot recognizers~~
 - [ ] RegExp optimization
-- [ ] Optimize detection speed (Add `strict` mode)
+- [ ] Optimize detection speed (using BOM/DOM-based features)
 - [ ] Deploy test page on Heroku
 
 ### 1.x.x
