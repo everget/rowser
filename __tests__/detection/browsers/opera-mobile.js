@@ -4,14 +4,15 @@ const rowser = require('../../../lib/rowser');
 const userAgents = require('../../../data/browsers/opera-mobile');
 
 describe('Opera Mobile browser', () => {
-  before(() => {
+  beforeEach(() => {
     rowser.summary = {};
   });
 
-  it('all test user agents should be detected correctly', () => {
-    userAgents.forEach((item) => {
-      expect(rowser.detect(item.ua)).to.deep.equal(item.descriptor);
-      rowser.summary = {};
+  userAgents.forEach((item) => {
+    describe(`${item.ua}`, () => {
+      it('should be detected correctly', () => {
+        expect(rowser.detect(item.ua)).to.deep.equal(item.descriptor);
+      });
     });
   });
 });
