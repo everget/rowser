@@ -8,6 +8,10 @@ describe('Opera Coast browser', () => {
     rowser.summary = {};
   });
 
+  after(() => {
+    rowser.summary = {};
+  });
+
   userAgents.forEach((item) => {
     describe(`${item.ua}`, () => {
       it('should be detected correctly', () => {
